@@ -1,0 +1,38 @@
+{
+  "name": "Development Server",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Client": {
+        "$path": "src/shared/Client"
+      }
+    },
+
+    "ServerScriptService": {
+      "ServerManager": {
+        "$path": "src/server"
+      },
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      },
+      "Services": {
+        "$path": "src/server/Services"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
